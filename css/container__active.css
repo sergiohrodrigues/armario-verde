@@ -1,0 +1,61 @@
+.containerActv{
+    position: absolute;
+    bottom: 0;
+    display: none;
+    background-color: #48556A;
+    padding: 20px 0;
+    width: 100%;
+}
+.mostrar{
+    display: block;
+}
+
+.containerActv__caixa{
+    margin: 0 auto;
+    transition: all .5s ease;
+}
+
+.containerActv__caixa-caixa{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.containerActv__caixa-redes-texto{
+    font-size: 13px;
+    color: #9DAEC2;
+    letter-spacing: 5px;
+}
+
+.facebook-img{
+    margin-left: 20px;
+}
+
+.twitter-img{
+    margin: 0 15px;
+}
+
+.arrow-white{
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+@media screen and (min-width: 930px){
+    .containerActv{
+        width: 200px;
+        height: 55px;
+        padding: 5px;
+        top: 175px;
+        right: -15px;
+        border-radius: 10px;
+    }
+    .containerActv__caixa-caixa{
+        margin-top: 15px;
+    }
+    #desativar{
+        display: none;
+    }
+    .espalhar{
+        display: flex;
+    }
+}
