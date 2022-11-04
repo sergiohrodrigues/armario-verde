@@ -15,8 +15,6 @@ ativar.addEventListener('click', () =>{
             arrow1.src = "./img/arrow-white.svg";
         }
     }
-
-    mostrar.style.transition = 'transition: 2s'
 })
 
 desativar.addEventListener('click', () => {
