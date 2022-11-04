@@ -4,8 +4,9 @@
 
 .container{
     background-color: white;
-    width: 100%;
-    margin: 0 auto;
+    width: 80%;
+    margin: 30px auto;
+    border-radius: 10px;
 }
 
 .container-p{
@@ -20,6 +21,7 @@
 
 .container__imagem{
     width: 100%;
+    border-radius: 10px 10px 0 0;
 }
 
 .container__textos{
@@ -41,7 +43,7 @@
     display: flex;
     justify-content: space-around;
     align-items: center;
-    margin-bottom: 30px;
+    padding: 20px 0;
 }
 
 .container__caixa-perfil{
@@ -72,9 +74,12 @@
 @media screen and (min-width: 930px){
     .container{
         width: 850px;
-        margin-top: 150px;
+        margin-top: 200px;
     }
     .container-p{
         flex-direction: row;
+    }
+    .container__imagem{
+        border-radius: 10px 0 0 10px;
     }
 }

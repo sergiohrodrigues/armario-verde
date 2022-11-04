@@ -3,7 +3,7 @@
     bottom: 0;
     display: none;
     background-color: #48556A;
-    padding: 20px 0;
+    padding: 16px 0;
     width: 100%;
 }
 .mostrar{
@@ -12,7 +12,6 @@
 
 .containerActv__caixa{
     margin: 0 auto;
-    transition: all .5s ease;
 }
 
 .containerActv__caixa-caixa{
@@ -22,6 +21,7 @@
 }
 
 .containerActv__caixa-redes-texto{
+    display: inline;
     font-size: 13px;
     color: #9DAEC2;
     letter-spacing: 5px;
